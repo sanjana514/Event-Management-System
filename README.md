@@ -2,8 +2,7 @@
 
 A full-stack Event Management System built with **Oracle APEX** and **SQL** for the course **CSE302: Database Systems (Section 06), Fall 2024**, East West University.
 
-> ⚠️ **Security note:** Login credentials, workspace passwords, and other sensitive details have been redacted from the source report and are **not included** in this README. See [Security Notes](#-security-notes) before sharing this repo or any live app link.
-
+> ⚠️ **Security note:** Login credentials, workspace passwords, and other sensitive details have been redacted from the source report and are **not included** in this README. 
 ---
 
 ## 📌 Project Info
