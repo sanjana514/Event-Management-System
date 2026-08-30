@@ -43,8 +43,8 @@ The E-R model was mapped into normalized relational tables — `Event`, `Organiz
 ```sql
 -- Conceptual logic (see the APEX app for the actual PL/SQL trigger)
 -- On INSERT INTO Event:
---   DaysUntilEvent := EventDate - SYSDATE;
---   (a negative value means the event has already passed)
+-- DaysUntilEvent := EventDate - SYSDATE;
+-- (a negative value means the event has already passed)
 ```
 
 ---
@@ -73,7 +73,7 @@ Access is controlled through Oracle APEX's page-level authorization schemes:
 - **Admin roles** (e.g. Supervisor, CEO, Manager, Proctor) can view and manage the `Admin` table and all other data.
 - **Non-admin roles** (Organizer, Attendee, Volunteer, Sponsor) are denied access to admin-only pages — attempting to access them returns an **Access Denied** page via APEX's built-in page security check.
 
-> All usernames, passwords, and workspace secrets from the original coursework submission have been **redacted and are not reproduced here** — see [Security Notes](#-security-notes).
+> All usernames, passwords, and workspace secrets from the original coursework submission have been **redacted and are not reproduced here** 
 
 ---
 
